@@ -1,5 +1,5 @@
 # 🫀 Cardiovascular Disease Prediction
-> 🇧🇷 [Versão em Português](README.pt.md)
+> 🇧🇷 [Versão em Português](readme.pt.md)
 
 Prediction of cardiovascular disease diagnosis using 
 Machine Learning.
