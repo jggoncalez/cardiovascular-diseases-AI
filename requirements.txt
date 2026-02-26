@@ -5,3 +5,4 @@ xgboost
 aif360
 seaborn
 matplotlib
+ipykernel
