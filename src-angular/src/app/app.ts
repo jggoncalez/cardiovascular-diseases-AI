@@ -14,43 +14,17 @@ export class App {
 
   sideBarConfig : ISideBarConfig[] = [
     {
-      name : "Home",
-      way : "#",
-      child : [
-        {
-          name : "Início",
-          way : "/",
-          child : []
-        },
-        {
-          name : "Teste 2",
-          way : "/",
-          child : []
-        },
-        {
-          name : "Teste 3",
-          way : "/",
-          child : []
-        }
-      ]
-    },
-    {
       name : "Dashboard",
       way : "#",
       child : [
         {
-          name : "Início",
-          way : "/",
+          name : "Inicio",
+          way : "/dashboard",
           child : []
         },
         {
-          name : "Teste 2",
-          way : "/",
-          child : []
-        },
-        {
-          name : "Teste 3",
-          way : "/",
+          name : "Graficos",
+          way : "/graphs",
           child : []
         }
       ]
