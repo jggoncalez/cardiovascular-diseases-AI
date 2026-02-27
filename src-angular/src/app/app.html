@@ -1,1 +1,9 @@
-<app-side-bar></app-side-bar>
+<div class="app-layout">
+  
+  <app-side-bar [sideBarConfig]="sideBarConfig" class="sidebar"></app-side-bar>
+
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+
+</div>

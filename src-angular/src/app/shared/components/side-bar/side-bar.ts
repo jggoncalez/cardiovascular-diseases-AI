@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { ISideBarConfig } from './interfaces/side-bar-config';
 
 @Component({
   selector: 'app-side-bar',
@@ -7,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './side-bar.scss',
 })
 export class SideBar {
-  
+  sideBarConfig = input<ISideBarConfig[]>([])
 }
