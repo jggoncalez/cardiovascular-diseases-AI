@@ -5,9 +5,9 @@
 <nav aria-label="Navegação de páginas">
   <ul class="pagination">
     
-    @if(pages().previousActive) {
+    @if(paginationConfig()?.previousActive) {
         <li class="page-item">
-            <a class="page-link" [routerLink]="pages().ways.wayPrevious">Anterior</a>
+            <a class="page-link" [routerLink]="paginationConfig()?.ways?.wayPrevious">Anterior</a>
         </li>
     } @else {
         <li class="page-item disabled" aria-disabled="true">
@@ -16,14 +16,14 @@
     }
 
     <li class="page-item active" aria-current="page">
-        <a class="page-link" [routerLink]="pages().ways.wayCurrent">
-            {{ pages().pageNumber }}
+        <a class="page-link" [routerLink]="paginationConfig()?.ways?.wayCurrent">
+            {{ paginationConfig()?.pageNumber }}
         </a>
     </li>
 
-    @if(pages().nextActive) {
+    @if(paginationConfig()?.nextActive) {
         <li class="page-item">
-            <a class="page-link" [routerLink]="pages().ways.wayNext">Próximo</a>
+            <a class="page-link" [routerLink]="'/graphs/graphs2'">Próximo</a>
         </li>
     } @else {
         <li class="page-item disabled" aria-disabled="true">

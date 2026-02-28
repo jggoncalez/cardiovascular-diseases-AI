@@ -11,7 +11,10 @@ export const routes: Routes = [
     },
     {
         path : "graphs",
-        loadComponent : () => import('./features/pages/graphs/page-graphs1/page-graphs1').then(m => m.PageGraphs1)
+        loadChildren : () => import('./features/pages/graphs/routes/page-graphs.routes').then(m => m.pageGraphs)
+    },
+    {
+        path : "about-us",
+        loadComponent : () => import('./features/pages/about-us/about-us').then(m => m.AboutUs)
     }
-    //TO-DO: Trocar loadcomponent por loadchildren após a criação da rotas dos graficos
 ];

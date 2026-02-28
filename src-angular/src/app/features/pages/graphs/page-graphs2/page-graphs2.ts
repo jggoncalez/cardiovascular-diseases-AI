@@ -3,20 +3,20 @@ import { Pagination } from '../../../../shared/components/pagination/pagination'
 import { IPaginationConfig } from '../../../../shared/components/pagination/interfaces/pagination-config';
 
 @Component({
-  selector: 'app-page-graphs1',
+  selector: 'app-page-graphs2',
   imports: [Pagination],
-  templateUrl: './page-graphs1.html',
-  styleUrl: './page-graphs1.scss',
+  templateUrl: './page-graphs2.html',
+  styleUrl: './page-graphs2.scss',
 })
-export class PageGraphs1 {
+export class PageGraphs2 {
   paginationConfig : IPaginationConfig = {
-    nextActive : true,
-    previousActive : false,
-    pageNumber : 1,
+    pageNumber : 2,
+    previousActive : true,
+    nextActive : false,
     ways : {
-      wayPrevious : "#",
-      wayCurrent : "/graphs/graphs1",
-      wayNext : "/graphs/graphs2"
+      wayCurrent : "/graphs/graphs2",
+      wayNext : "#",
+      wayPrevious : "/graphs/graphs1"
     }
   }
 }

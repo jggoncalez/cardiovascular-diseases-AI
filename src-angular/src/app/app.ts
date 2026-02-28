@@ -24,7 +24,12 @@ export class App {
         },
         {
           name : "Graficos",
-          way : "/graphs",
+          way : "/graphs/graphs1",
+          child : []
+        },
+        {
+          name : "Sobre nós",
+          way : "/about-us",
           child : []
         }
       ]
