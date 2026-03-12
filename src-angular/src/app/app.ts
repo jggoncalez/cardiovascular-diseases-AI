@@ -24,7 +24,7 @@ export class App {
         },
         {
           name : "Graficos",
-          way : "/graphs/graphs1",
+          way : "/graphs/page1",
           child : []
         },
         {

@@ -15,8 +15,8 @@ export class PageGraphs1 {
     pageNumber : 1,
     ways : {
       wayPrevious : "#",
-      wayCurrent : "/graphs/graphs1",
-      wayNext : "/graphs/graphs2"
+      wayCurrent : "/graphs/page1",
+      wayNext : "/graphs/page2"
     }
   }
 }

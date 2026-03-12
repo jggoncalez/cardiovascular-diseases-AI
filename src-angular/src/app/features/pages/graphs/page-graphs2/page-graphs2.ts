@@ -14,9 +14,9 @@ export class PageGraphs2 {
     previousActive : true,
     nextActive : false,
     ways : {
-      wayCurrent : "/graphs/graphs2",
+      wayCurrent : "/graphs/page2",
       wayNext : "#",
-      wayPrevious : "/graphs/graphs1"
+      wayPrevious : "/graphs/page1"
     }
   }
 }

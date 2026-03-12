@@ -23,7 +23,7 @@
 
     @if(paginationConfig()?.nextActive) {
         <li class="page-item">
-            <a class="page-link" [routerLink]="'/graphs/graphs2'">Próximo</a>
+            <a class="page-link" [routerLink]="paginationConfig()?.ways?.wayNext">Próximo</a>
         </li>
     } @else {
         <li class="page-item disabled" aria-disabled="true">
